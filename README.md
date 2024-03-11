@@ -9,5 +9,5 @@ Este repositório tem como objetivo conter resoluções de atividades da discipl
 
 # Atividades 📝
 
-1. [Atividade 1](./Atividade_1/Atv1.md)
-2. [Atividade 2](./Atividade_2/Atv2.md)
+1. [Atividade 1](./Atividade_1/README.md)
+2. [Atividade 2](./Atividade_2/README.md)
