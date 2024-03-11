@@ -23,3 +23,7 @@ uma página HTML que tenha:
 
 
 iii. Adicione, na página anterior, o símbolo do IFAL acima do link que redireciona para o site www.ifal.edu.br.
+
+## Links de Arquivos
+1. [Página Principal](./road.html)
+2. [Página Carreira](./index.html)

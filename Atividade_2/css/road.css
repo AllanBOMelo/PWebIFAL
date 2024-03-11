@@ -1,4 +1,160 @@
-/* Minha Carreira */
-.road-container {
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
     background-color: #001F3F;
+    display: flex;
+}
+
+.aside-container {
+    width: 25%;
+    min-width: 200px;
+    height: 100%;
+    background: #151C48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    box-shadow: inset -5px -5px 20px 10px #695acd0e;
+    border-right: 5px solid #3B70A2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.aside-title {
+    margin-top: 1.5em;
+    font-size: calc(1vw + 1em);
+}
+
+.aside-personal-photo{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.aside-about {
+    width: 90%;
+    text-align: center;
+    font-size: calc(0.5vw + 0.5em);
+}
+
+.aside-welcome {
+    width: 90%;
+    text-align: center;
+    font-size: calc(0.7vw + 0.5em);
+}
+
+.aside-social-media-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.aside-social-media-container li img {
+    width: calc(1.5vw + 1em);
+}
+
+.aside-social-media-container li img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px #3B70A2);
+}
+
+.aside_line {
+    width: 90%;
+    height: 1px;
+    background: #3B70A2
+}
+
+.aside-email {
+    width: fit-content;
+    font-size: calc(0.5vw + 0.5em);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aside-email img {
+    width: calc(0.7vw + 0.7em);
+}
+
+.main-container {
+    width: 70%;
+    min-width: 550px;
+    min-height: 750px;
+    margin-left: calc(6em + 4vw + 20%);
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.road-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.road-line {
+    width: 90%;
+    height: 2px;
+    background-color: #3B70A2;
+    margin: 2em 0;
+}
+
+.road-school {
+    width: 90%;
+}
+
+.road-container h3 {
+    position: relative;
+    margin: 1em 0;
+    margin-left: 20px ;
+}
+
+.road-container h3:before {
+    content: " ";
+    display:    block;
+    width: 10px;
+    height: 10px;
+    background-color: #3B70A2;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+}
+
+.road-container p, .road-container label {
+    border-left: 2px solid #3B70A2;
+    padding-left: 20px;
+    margin-left: 5px;
+    display: block;
+}
+
+.road-container label img {
+    width: 2em;
+    padding: 10px;
+    background-color: #cce0f3;
+    border-radius: 10px;
+}
+
+.road-school label {
+    display: flex !important;
+    gap: 1em;
+    align-items: center;
+}
+
+.road-container label h4 {
+    margin: 1em 0;
 }
