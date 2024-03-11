@@ -1,7 +1,7 @@
 <a href="../README.md"><- Voltar</a>
 </p>
 <p align="center">
-<img src="https://www2.ifal.edu.br/o-ifal/comunicacao/arquivos/logos/logos-arapiraca/novo-logo_arapiraca_hor-color.png" width="60%" />
+<img src="../assets/images/Ifal.png" width="60%" />
 </p>
 	
 **Aluno: Allan Barbosa**
